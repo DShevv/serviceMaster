@@ -50,7 +50,7 @@ header {
 }
 
 .info__city {
-  margin-right: 68px;
+  margin-right: 65px;
 }
 
 .info__city_current {
@@ -1190,7 +1190,7 @@ footer .wrapper {
 }
 
 .info__city.footer {
-  margin-left: 169px;
+  margin-left: 165px;
   margin-right: 0;
   display: flex;
   flex-direction: column;
