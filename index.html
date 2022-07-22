@@ -21,19 +21,26 @@
     <header>
       <div class="header__info">
         <div class="wrapper">
+          <button class="header-menu"></button>
           <a class="header__info-logo" href="/">Сервис-Мастер СПБ</a>
           <div class="info__city">
             <div class="info__city_current">
               Ваш город:
               <span>Санкт-Петербург</span>
             </div>
-            <button class="info__city-select">выбрать другой город</button>
+            <button onclick="ShowDrop()" class="info__city-select">выбрать другой город</button>
             <div class="info__city_dropdown">
               <div class="info__city_dropdown-title">
                 Выберите ваш город из списка:
               </div>
               <div class="info__city_dropdown_list">
-                <div class="info__city_dropdown-item">Москва</div>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
               </div>
               <div class="info__city_dropdown-close">
                 <img src="/assets/close.svg" alt="" />
@@ -358,6 +365,11 @@
               </li>
             </ul>
           </div>
+          <div class="info__links">
+            <a href="" class="info__links-item">Гарантии</a>
+            <a href="" class="info__links-item">Оплата</a>
+            <a href="" class="info__links-item">Контакты</a>
+          </div>
         </div>
       </div>
     </header>
@@ -429,7 +441,7 @@
           </div>
           <div class="hero__info__item">
             <img
-              src="/assets/hero/XMLID_1338_.svg"
+              src="/assets/hero/Group 93.svg"
               alt=""
               class="hero__info__item-img"
             />
@@ -448,7 +460,7 @@
           <h4 class="hero__sale-caption">
             Звоните сейчас, записывайтесь на ремонт заранее — получайте
             <b>скидку 10%</b> и минимальное время ремонта!
-            <a href="#">Хочу скидку!</a>
+            <a href="#main">Хочу скидку!</a>
           </h4>
         </div>
       </div>
@@ -603,7 +615,7 @@
             <div class="prices__list-item-r">Стоимость</div>
           </div>
           <div class="prices__list-item">
-            <div class="prices__list-item-l">Диагностика</div>
+            <div class="prices__list-item-l">Замена устройства блокировки люка (УБЛ)</div>
             <div class="prices__list-item-r">Бесплатно</div>
           </div>
           <div class="prices__list-item">
@@ -938,6 +950,7 @@
            </div><div class="casual__item">
              Сбиваются настройки программ для стирки на электронной панели
            </div>
+            <button class="casual-more">Смотреть ещё</button>
          </div> 
       </div>
     </section>
@@ -998,58 +1011,96 @@
         </h3>
         <div class="brands__list">
           <div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
+            <h5 class="brands__item-title">AEG</h5>
+          </div>
+          <div class="brands__item">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
+            <h5 class="brands__item-title">AEG</h5>
+          </div>
+          <div class="brands__item">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
-            <h5 class="brands__item-title">AEG</h5>
-          </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
-            <h5 class="brands__item-title">AEG</h5>
-          </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
-            <h5 class="brands__item-title">AEG</h5>
-          </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
-            <h5 class="brands__item-title">AEG</h5>
-          </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
-            <h5 class="brands__item-title">AEG</h5>
-          </div><div class="brands__item">
-            <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+            <div class="item__cont">
+              <img src="/assets/brand/Group-1.png" alt="" class="brands-img">
+
+            </div>
             <h5 class="brands__item-title">AEG</h5>
           </div>
         </div>
@@ -1062,18 +1113,25 @@
         <h6 class="webelar">
           ©webelar2022
         </h6>
-          <div class="info__city footer">
+        <div class="mobile__box">
+          <a class="header__info-logo footer" href="/">Сервис-Мастер СПБ</a>
+          <h6 class="webelar">
+            ©webelar2022
+          </h6>
+        </div>
+        <div class="info__city footer">
             <div class="info__city_current">
               Ваш город:
               <span>Санкт-Петербург</span>
             </div>
-            <button class="info__city-select">выбрать другой город</button>
-            <div class="info__city_dropdown">
+            <button onclick="ShowDrop()" class="info__city-select">выбрать другой город</button>
+            <div class="info__city_dropdown footer">
               <div class="info__city_dropdown-title">
                 Выберите ваш город из списка:
               </div>
               <div class="info__city_dropdown_list">
-                <div class="info__city_dropdown-item">Москва</div>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
               </div>
               <div class="info__city_dropdown-close">
                 <img src="/assets/close.svg" alt="" />
@@ -1083,6 +1141,31 @@
           <div class="info__etc footer">
             <div class="info__etc-time">Ежедневно с 10:00 до 20:00</div>
             <div class="info__etc-adr">пр-т Московский 8</div>
+          </div>
+          <div class="mobile__box">
+            <div class="info__city footer">
+            <div class="info__city_current">
+              Ваш город:
+              <span>Санкт-Петербург</span>
+            </div>
+            <button onclick="ShowDrop()" class="info__city-select">выбрать другой город</button>
+            <div class="info__city_dropdown footer">
+              <div class="info__city_dropdown-title">
+                Выберите ваш город из списка:
+              </div>
+              <div class="info__city_dropdown_list">
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+                <a href="#" class="info__city_dropdown-item">Москва</a>
+              </div>
+              <div class="info__city_dropdown-close">
+                <img src="/assets/close.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="info__etc footer">
+            <div class="info__etc-time">Ежедневно с 10:00 до 20:00</div>
+            <div class="info__etc-adr">пр-т Московский 8</div>
+          </div>
           </div>
       </div>
     </footer>
